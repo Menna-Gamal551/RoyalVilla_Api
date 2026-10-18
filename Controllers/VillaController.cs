@@ -78,7 +78,7 @@ namespace RoyalVilla_Api.Controllers
             try {
                 if (villaDTO==null)
                 {
-                    return BadRequest(ApiResponse<Object>.BadRequest("villa properties is required"));
+                    return BadRequest(ApiResponse<object>.BadRequest("villa properties is required"));
                 }
                 var duplicateVilla = await _db.Villas.FirstOrDefaultAsync(e => e.Name.ToLower()==villaDTO.Name.ToLower() );
                 if (duplicateVilla!=null)
