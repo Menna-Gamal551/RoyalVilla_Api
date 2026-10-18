@@ -160,7 +160,7 @@ namespace RoyalVilla_Api.Controllers
                 var villa = await _db.Villas.Where(e => e.Id==id).SingleOrDefaultAsync();
                 if (villa==null)
                 {
-                    return NotFound(ApiResponse<object>.NotFound($"villa with {id} not found Bravo Menna i'm so proud for you :-)"));
+                    return NotFound(ApiResponse<object>.NotFound($"villa with {id} not found "));
                 }
                 _db.Villas.Remove(villa);
                 await _db.SaveChangesAsync();
