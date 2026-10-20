@@ -1556,6 +1556,16 @@
             "rid": "win"
           }
         }
+      },
+      "RoyalVillaDTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/RoyalVillaDTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RoyalVillaDTO.dll": {}
+        }
       }
     }
   },
@@ -4172,6 +4182,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "RoyalVillaDTO/1.0.0": {
+      "type": "project",
+      "path": "../RoyalVillaDTO/RoyalVillaDTO.csproj",
+      "msbuildProject": "../RoyalVillaDTO/RoyalVillaDTO.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4181,6 +4196,7 @@
       "Microsoft.EntityFrameworkCore >= 8.0.29",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.29",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.29",
+      "RoyalVillaDTO >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "System.IdentityModel.Tokens.Jwt >= 8.14.0"
     ]
@@ -4211,7 +4227,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\merra\\source\\repos\\RoyalVillaDTO\\RoyalVillaDTO.csproj": {
+              "projectPath": "C:\\Users\\merra\\source\\repos\\RoyalVillaDTO\\RoyalVillaDTO.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

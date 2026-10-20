@@ -6,7 +6,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using RoyalVilla_Api.Data;
 using RoyalVilla_Api.Data.Models;
-using RoyalVilla_Api.Data.Models.DTO;
+using RoyalVillaDTO;
 using RoyalVilla_Api.Recervice;
 
 namespace RoyalVilla_Api
@@ -39,7 +39,7 @@ namespace RoyalVilla_Api
             }
             );
 
-
+            builder.Services.AddCors();
             // Add services to the container.
             builder.Services.AddDbContext<AppDbContext>
                 (option => option.UseSqlServer(builder.Configuration.GetConnectionString("MyCon")));
@@ -80,7 +80,7 @@ namespace RoyalVilla_Api
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
+            app.UseCors(op=>op.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod().WithExposedHeaders("*"));
             app.UseHttpsRedirection();
             app.UseAuthentication();
             app.UseAuthorization();

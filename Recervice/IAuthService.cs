@@ -1,4 +1,4 @@
-﻿using RoyalVilla_Api.Data.Models.DTO;
+﻿using RoyalVillaDTO;
 
 namespace RoyalVilla_Api.Recervice
 {

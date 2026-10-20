@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using RoyalVilla_Api.Data;
 using RoyalVilla_Api.Data.Models;
-using RoyalVilla_Api.Data.Models.DTO;
+using RoyalVillaDTO;
 
 namespace RoyalVilla_Api.Controllers
 {

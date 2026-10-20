@@ -3,120 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\merra\\source\\repos\\TestApi2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\royalvilla_api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:royalvilla_api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\royalvilla_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:royalvilla_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\controllers\\villaamenitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:controllers\\villaamenitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\data\\models\\villaamentydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:data\\models\\villaamentydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\data\\models\\villaamentyupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:data\\models\\villaamentyupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\data\\models\\villaamentycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:data\\models\\villaamentycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\migrations\\20261012173302_addvillaamenitiestodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:migrations\\20261012173302_addvillaamenitiestodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\data\\models\\villa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:data\\models\\villa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\data\\models\\villaamenities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:data\\models\\villaamenities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\recervice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:recervice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\controllers\\villacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:controllers\\villacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\royalvilla_api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:royalvilla_api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\data\\models\\dto\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:data\\models\\dto\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\data\\models\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:data\\models\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\data\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:data\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\recervice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:recervice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\data\\models\\dto\\registerationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:data\\models\\dto\\registerationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\data\\models\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:data\\models\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\migrations\\20261010062357_addusertodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:migrations\\20261010062357_addusertodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\data\\models\\dto\\villaupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:data\\models\\dto\\villaupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\data\\models\\villa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:data\\models\\villa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\data\\models\\dto\\villacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:data\\models\\dto\\villacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\data\\models\\dto\\villadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:data\\models\\dto\\villadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\migrations\\20261007222532_addvilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:migrations\\20261007222532_addvilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\migrations\\20261007225156_seedvillas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:migrations\\20261007225156_seedvillas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -126,11 +38,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VillaAmenities.cs",
+              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\VillaAmenities.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\VillaAmenities.cs",
+              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\VillaAmenities.cs",
+              "RelativeToolTip": "Data\\Models\\VillaAmenities.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T22:09:20.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\User.cs",
+              "RelativeToolTip": "Data\\Models\\User.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAzwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T22:09:17.695Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Villa.cs",
+              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\Villa.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\Villa.cs",
+              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\Villa.cs",
+              "RelativeToolTip": "Data\\Models\\Villa.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T22:09:08.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VillaController.cs",
+              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Controllers\\VillaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VillaController.cs",
+              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Controllers\\VillaController.cs",
+              "RelativeToolTip": "Controllers\\VillaController.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAuwFwAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T19:43:18.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T19:43:06.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -138,12 +112,11 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-10-13T19:22:08.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-13T19:22:08.67Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "RoyalVilla_Api.http",
               "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\RoyalVilla_Api.http",
               "RelativeDocumentMoniker": "RoyalVilla_Api.http",
@@ -152,330 +125,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
               "WhenOpened": "2026-10-13T19:20:32.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VillaAmenitiesController.cs",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Controllers\\VillaAmenitiesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\VillaAmenitiesController.cs",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Controllers\\VillaAmenitiesController.cs",
-              "RelativeToolTip": "Controllers\\VillaAmenitiesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-12T18:04:14.09Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VillaAmentyDTO.cs",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\VillaAmentyDTO.cs",
-              "RelativeDocumentMoniker": "Data\\Models\\VillaAmentyDTO.cs",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\VillaAmentyDTO.cs",
-              "RelativeToolTip": "Data\\Models\\VillaAmentyDTO.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-12T17:42:26.215Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "VillaAmentyUpdateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\VillaAmentyUpdateDTO.cs",
-              "RelativeDocumentMoniker": "Data\\Models\\VillaAmentyUpdateDTO.cs",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\VillaAmentyUpdateDTO.cs",
-              "RelativeToolTip": "Data\\Models\\VillaAmentyUpdateDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-12T17:40:07.57Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "VillaAmentyCreateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\VillaAmentyCreateDTO.cs",
-              "RelativeDocumentMoniker": "Data\\Models\\VillaAmentyCreateDTO.cs",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\VillaAmentyCreateDTO.cs",
-              "RelativeToolTip": "Data\\Models\\VillaAmentyCreateDTO.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-12T17:37:27.62Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20261012173302_addVillaAmenitiestoDb.cs",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Migrations\\20261012173302_addVillaAmenitiestoDb.cs",
-              "RelativeDocumentMoniker": "Migrations\\20261012173302_addVillaAmenitiestoDb.cs",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Migrations\\20261012173302_addVillaAmenitiestoDb.cs",
-              "RelativeToolTip": "Migrations\\20261012173302_addVillaAmenitiestoDb.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-12T17:33:03.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "VillaAmenities.cs",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\VillaAmenities.cs",
-              "RelativeDocumentMoniker": "Data\\Models\\VillaAmenities.cs",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\VillaAmenities.cs",
-              "RelativeToolTip": "Data\\Models\\VillaAmenities.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAcAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-12T17:14:23.417Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RoyalVilla_Api.csproj",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\RoyalVilla_Api.csproj",
-              "RelativeDocumentMoniker": "RoyalVilla_Api.csproj",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\RoyalVilla_Api.csproj",
-              "RelativeToolTip": "RoyalVilla_Api.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-11T18:00:04.927Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Recervice\\AuthService.cs",
-              "RelativeDocumentMoniker": "Recervice\\AuthService.cs",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Recervice\\AuthService.cs",
-              "RelativeToolTip": "Recervice\\AuthService.cs",
-              "ViewState": "AQIAAFMAAAAAAAAAAAAAAGQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T08:54:00.493Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAAAD4AAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T07:53:37.131Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "VillaController.cs",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Controllers\\VillaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\VillaController.cs",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Controllers\\VillaController.cs",
-              "RelativeToolTip": "Controllers\\VillaController.cs",
-              "ViewState": "AQIAAJoAAAAAAAAAAAAuwK0AAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T21:36:36.972Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T21:24:25.535Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Data\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\User.cs",
-              "RelativeToolTip": "Data\\Models\\User.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T06:18:11.473Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\DTO\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "Data\\Models\\DTO\\ApiResponse.cs",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\DTO\\ApiResponse.cs",
-              "RelativeToolTip": "Data\\Models\\DTO\\ApiResponse.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABYAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T02:10:41.522Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LoginResponseDTO.cs",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\DTO\\LoginResponseDTO.cs",
-              "RelativeDocumentMoniker": "Data\\Models\\DTO\\LoginResponseDTO.cs",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\DTO\\LoginResponseDTO.cs",
-              "RelativeToolTip": "Data\\Models\\DTO\\LoginResponseDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T07:35:38.407Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-10-07T22:05:28.524Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\DTO\\UserDTO.cs",
-              "RelativeDocumentMoniker": "Data\\Models\\DTO\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\DTO\\UserDTO.cs",
-              "RelativeToolTip": "Data\\Models\\DTO\\UserDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T07:37:12.981Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Recervice\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Recervice\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Recervice\\IAuthService.cs",
-              "RelativeToolTip": "Recervice\\IAuthService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T08:50:15.507Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "RegisterationRequestDTO.cs",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\DTO\\RegisterationRequestDTO.cs",
-              "RelativeDocumentMoniker": "Data\\Models\\DTO\\RegisterationRequestDTO.cs",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\DTO\\RegisterationRequestDTO.cs",
-              "RelativeToolTip": "Data\\Models\\DTO\\RegisterationRequestDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T07:43:51.288Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "LoginRequestDTO.cs",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\DTO\\LoginRequestDTO.cs",
-              "RelativeDocumentMoniker": "Data\\Models\\DTO\\LoginRequestDTO.cs",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\DTO\\LoginRequestDTO.cs",
-              "RelativeToolTip": "Data\\Models\\DTO\\LoginRequestDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T07:33:11.924Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "20261010062357_addUsertodb.cs",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Migrations\\20261010062357_addUsertodb.cs",
-              "RelativeDocumentMoniker": "Migrations\\20261010062357_addUsertodb.cs",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Migrations\\20261010062357_addUsertodb.cs",
-              "RelativeToolTip": "Migrations\\20261010062357_addUsertodb.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T06:23:57.811Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "VillaUpdateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\DTO\\VillaUpdateDTO.cs",
-              "RelativeDocumentMoniker": "Data\\Models\\DTO\\VillaUpdateDTO.cs",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\DTO\\VillaUpdateDTO.cs",
-              "RelativeToolTip": "Data\\Models\\DTO\\VillaUpdateDTO.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAcAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-08T13:18:58.216Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Villa.cs",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\Villa.cs",
-              "RelativeDocumentMoniker": "Data\\Models\\Villa.cs",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\Villa.cs",
-              "RelativeToolTip": "Data\\Models\\Villa.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wA8AAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T22:14:20.539Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "VillaCreateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\DTO\\VillaCreateDTO.cs",
-              "RelativeDocumentMoniker": "Data\\Models\\DTO\\VillaCreateDTO.cs",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\DTO\\VillaCreateDTO.cs",
-              "RelativeToolTip": "Data\\Models\\DTO\\VillaCreateDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-08T12:31:51.869Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwA0AAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T21:22:31.129Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "VillaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\DTO\\VillaDTO.cs",
-              "RelativeDocumentMoniker": "Data\\Models\\DTO\\VillaDTO.cs",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\DTO\\VillaDTO.cs",
-              "RelativeToolTip": "Data\\Models\\DTO\\VillaDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T02:18:48.225Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "20261007222532_AddVilla.cs",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Migrations\\20261007222532_AddVilla.cs",
-              "RelativeDocumentMoniker": "Migrations\\20261007222532_AddVilla.cs",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Migrations\\20261007222532_AddVilla.cs",
-              "RelativeToolTip": "Migrations\\20261007222532_AddVilla.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAMBgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T22:25:33.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "20261007225156_SeedVillas.cs",
-              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Migrations\\20261007225156_SeedVillas.cs",
-              "RelativeDocumentMoniker": "Migrations\\20261007225156_SeedVillas.cs",
-              "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Migrations\\20261007225156_SeedVillas.cs",
-              "RelativeToolTip": "Migrations\\20261007225156_SeedVillas.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAMBgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T22:51:56.691Z"
             }
           ]
         }

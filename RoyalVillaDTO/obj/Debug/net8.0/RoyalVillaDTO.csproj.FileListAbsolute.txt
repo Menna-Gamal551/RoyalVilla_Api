@@ -1,0 +1,11 @@
+C:\Users\merra\source\repos\RoyalVillaDTO\obj\Debug\net8.0\RoyalVillaDTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\merra\source\repos\RoyalVillaDTO\obj\Debug\net8.0\RoyalVillaDTO.AssemblyInfoInputs.cache
+C:\Users\merra\source\repos\RoyalVillaDTO\obj\Debug\net8.0\RoyalVillaDTO.AssemblyInfo.cs
+C:\Users\merra\source\repos\RoyalVillaDTO\obj\Debug\net8.0\RoyalVillaDTO.csproj.CoreCompileInputs.cache
+C:\Users\merra\source\repos\RoyalVillaDTO\bin\Debug\net8.0\RoyalVillaDTO.deps.json
+C:\Users\merra\source\repos\RoyalVillaDTO\bin\Debug\net8.0\RoyalVillaDTO.dll
+C:\Users\merra\source\repos\RoyalVillaDTO\bin\Debug\net8.0\RoyalVillaDTO.pdb
+C:\Users\merra\source\repos\RoyalVillaDTO\obj\Debug\net8.0\RoyalVillaDTO.dll
+C:\Users\merra\source\repos\RoyalVillaDTO\obj\Debug\net8.0\refint\RoyalVillaDTO.dll
+C:\Users\merra\source\repos\RoyalVillaDTO\obj\Debug\net8.0\RoyalVillaDTO.pdb
+C:\Users\merra\source\repos\RoyalVillaDTO\obj\Debug\net8.0\ref\RoyalVillaDTO.dll

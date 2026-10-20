@@ -130,7 +130,6 @@ C:\Users\merra\source\repos\TestApi2\obj\Debug\net8.0\RoyalVilla_Api.GeneratedMS
 C:\Users\merra\source\repos\TestApi2\obj\Debug\net8.0\RoyalVilla_Api.AssemblyInfoInputs.cache
 C:\Users\merra\source\repos\TestApi2\obj\Debug\net8.0\RoyalVilla_Api.AssemblyInfo.cs
 C:\Users\merra\source\repos\TestApi2\obj\Debug\net8.0\RoyalVilla_Api.csproj.CoreCompileInputs.cache
-C:\Users\merra\source\repos\TestApi2\obj\Debug\net8.0\RoyalVilla_Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\merra\source\repos\TestApi2\obj\Debug\net8.0\RoyalVilla_Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\merra\source\repos\TestApi2\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\merra\source\repos\TestApi2\obj\Debug\net8.0\staticwebassets.development.json
@@ -146,3 +145,6 @@ C:\Users\merra\source\repos\TestApi2\obj\Debug\net8.0\refint\RoyalVilla_Api.dll
 C:\Users\merra\source\repos\TestApi2\obj\Debug\net8.0\RoyalVilla_Api.pdb
 C:\Users\merra\source\repos\TestApi2\obj\Debug\net8.0\RoyalVilla_Api.genruntimeconfig.cache
 C:\Users\merra\source\repos\TestApi2\obj\Debug\net8.0\ref\RoyalVilla_Api.dll
+C:\Users\merra\source\repos\TestApi2\obj\Debug\net8.0\RoyalVilla_Api.sourcelink.json
+C:\Users\merra\source\repos\TestApi2\bin\Debug\net8.0\RoyalVillaDTO.dll
+C:\Users\merra\source\repos\TestApi2\bin\Debug\net8.0\RoyalVillaDTO.pdb

@@ -5,6 +5,10 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoyalVilla_Api", "RoyalVilla_Api.csproj", "{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoyalVillaWeb", "..\RoyalVillaWeb\RoyalVillaWeb.csproj", "{42D69508-C9A3-4B11-BAD3-3A923CE423B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoyalVillaDTO", "..\RoyalVillaDTO\RoyalVillaDTO.csproj", "{ED152FB4-1C14-49C7-8946-5ED4B5DBCE7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42D69508-C9A3-4B11-BAD3-3A923CE423B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D69508-C9A3-4B11-BAD3-3A923CE423B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D69508-C9A3-4B11-BAD3-3A923CE423B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D69508-C9A3-4B11-BAD3-3A923CE423B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED152FB4-1C14-49C7-8946-5ED4B5DBCE7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED152FB4-1C14-49C7-8946-5ED4B5DBCE7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED152FB4-1C14-49C7-8946-5ED4B5DBCE7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED152FB4-1C14-49C7-8946-5ED4B5DBCE7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

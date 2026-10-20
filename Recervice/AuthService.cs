@@ -7,7 +7,7 @@ using System.Security.Claims;
 using System.Text;
 using RoyalVilla_Api.Data;
 using RoyalVilla_Api.Data.Models;
-using RoyalVilla_Api.Data.Models.DTO;
+using RoyalVillaDTO;
 
 namespace RoyalVilla_Api.Recervice
 {
