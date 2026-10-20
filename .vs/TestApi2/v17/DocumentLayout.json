@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\merra\\source\\repos\\TestApi2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{42D69508-C9A3-4B11-BAD3-3A923CE423B7}|..\\RoyalVillaWeb\\RoyalVillaWeb.csproj|c:\\users\\merra\\source\\repos\\royalvillaweb\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\data\\models\\villa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:data\\models\\villa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -38,11 +41,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\RoyalVillaWeb\\Services\\BaseService.cs",
+              "RelativeDocumentMoniker": "..\\RoyalVillaWeb\\Services\\BaseService.cs",
+              "ToolTip": "C:\\Users\\merra\\source\\repos\\RoyalVillaWeb\\Services\\BaseService.cs",
+              "RelativeToolTip": "..\\RoyalVillaWeb\\Services\\BaseService.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACgAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T07:11:50.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "VillaAmenities.cs",
               "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\VillaAmenities.cs",
               "RelativeDocumentMoniker": "Data\\Models\\VillaAmenities.cs",
@@ -50,12 +66,11 @@
               "RelativeToolTip": "Data\\Models\\VillaAmenities.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-18T22:09:20.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-18T22:09:20.961Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\User.cs",
               "RelativeDocumentMoniker": "Data\\Models\\User.cs",
@@ -67,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Villa.cs",
               "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\Villa.cs",
               "RelativeDocumentMoniker": "Data\\Models\\Villa.cs",
@@ -80,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "VillaController.cs",
               "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Controllers\\VillaController.cs",
               "RelativeDocumentMoniker": "Controllers\\VillaController.cs",
@@ -92,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -104,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -116,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "RoyalVilla_Api.http",
               "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\RoyalVilla_Api.http",
               "RelativeDocumentMoniker": "RoyalVilla_Api.http",
