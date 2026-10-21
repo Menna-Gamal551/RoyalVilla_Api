@@ -3,7 +3,37 @@
   "WorkspaceRootPath": "C:\\Users\\merra\\source\\repos\\TestApi2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{42D69508-C9A3-4B11-BAD3-3A923CE423B7}|..\\RoyalVillaWeb\\RoyalVillaWeb.csproj|c:\\users\\merra\\source\\repos\\royalvillaweb\\views\\villa\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D69508-C9A3-4B11-BAD3-3A923CE423B7}|..\\RoyalVillaWeb\\RoyalVillaWeb.csproj|c:\\users\\merra\\source\\repos\\royalvillaweb\\views\\villa\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D69508-C9A3-4B11-BAD3-3A923CE423B7}|..\\RoyalVillaWeb\\RoyalVillaWeb.csproj|c:\\users\\merra\\source\\repos\\royalvillaweb\\views\\villa\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D69508-C9A3-4B11-BAD3-3A923CE423B7}|..\\RoyalVillaWeb\\RoyalVillaWeb.csproj|c:\\users\\merra\\source\\repos\\royalvillaweb\\controllers\\villacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D69508-C9A3-4B11-BAD3-3A923CE423B7}|..\\RoyalVillaWeb\\RoyalVillaWeb.csproj|c:\\users\\merra\\source\\repos\\royalvillaweb\\views\\villa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D69508-C9A3-4B11-BAD3-3A923CE423B7}|..\\RoyalVillaWeb\\RoyalVillaWeb.csproj|c:\\users\\merra\\source\\repos\\royalvillaweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0552FA-565F-4A85-B935-905338026539}|..\\RoyalVillaDTO\\RoyalVillaDTO.csproj|c:\\users\\merra\\source\\repos\\royalvilladto\\villacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0552FA-565F-4A85-B935-905338026539}|..\\RoyalVillaDTO\\RoyalVillaDTO.csproj|c:\\users\\merra\\source\\repos\\royalvilladto\\villadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{42D69508-C9A3-4B11-BAD3-3A923CE423B7}|..\\RoyalVillaWeb\\RoyalVillaWeb.csproj|c:\\users\\merra\\source\\repos\\royalvillaweb\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0552FA-565F-4A85-B935-905338026539}|..\\RoyalVillaDTO\\RoyalVillaDTO.csproj|c:\\users\\merra\\source\\repos\\royalvilladto\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D69508-C9A3-4B11-BAD3-3A923CE423B7}|..\\RoyalVillaWeb\\RoyalVillaWeb.csproj|c:\\users\\merra\\source\\repos\\royalvillaweb\\services\\villaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\data\\models\\villa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -32,6 +62,12 @@
     {
       "AbsoluteMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|c:\\users\\merra\\source\\repos\\testapi2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5FA0F780-B0E1-4A72-9E68-5002D4A3D9AD}|RoyalVilla_Api.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D69508-C9A3-4B11-BAD3-3A923CE423B7}|..\\RoyalVillaWeb\\RoyalVillaWeb.csproj|c:\\users\\merra\\source\\repos\\royalvillaweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D69508-C9A3-4B11-BAD3-3A923CE423B7}|..\\RoyalVillaWeb\\RoyalVillaWeb.csproj|c:\\users\\merra\\source\\repos\\royalvillaweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,19 +82,173 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\RoyalVillaWeb\\Views\\Villa\\Edit.cshtml",
+              "RelativeDocumentMoniker": "..\\RoyalVillaWeb\\Views\\Villa\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\merra\\source\\repos\\RoyalVillaWeb\\Views\\Villa\\Edit.cshtml",
+              "RelativeToolTip": "..\\RoyalVillaWeb\\Views\\Villa\\Edit.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEEAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-21T22:44:06.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VillaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\RoyalVillaDTO\\VillaDTO.cs",
+              "RelativeDocumentMoniker": "..\\RoyalVillaDTO\\VillaDTO.cs",
+              "ToolTip": "C:\\Users\\merra\\source\\repos\\RoyalVillaDTO\\VillaDTO.cs",
+              "RelativeToolTip": "..\\RoyalVillaDTO\\VillaDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T22:29:06.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\RoyalVillaWeb\\Views\\Villa\\Delete.cshtml",
+              "RelativeDocumentMoniker": "..\\RoyalVillaWeb\\Views\\Villa\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\merra\\source\\repos\\RoyalVillaWeb\\Views\\Villa\\Delete.cshtml",
+              "RelativeToolTip": "..\\RoyalVillaWeb\\Views\\Villa\\Delete.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-21T21:49:33.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VillaCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\RoyalVillaDTO\\VillaCreateDTO.cs",
+              "RelativeDocumentMoniker": "..\\RoyalVillaDTO\\VillaCreateDTO.cs",
+              "ToolTip": "C:\\Users\\merra\\source\\repos\\RoyalVillaDTO\\VillaCreateDTO.cs",
+              "RelativeToolTip": "..\\RoyalVillaDTO\\VillaCreateDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T21:03:56.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\RoyalVillaDTO\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "..\\RoyalVillaDTO\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\merra\\source\\repos\\RoyalVillaDTO\\ApiResponse.cs",
+              "RelativeToolTip": "..\\RoyalVillaDTO\\ApiResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T21:02:39.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\RoyalVillaWeb\\Views\\Villa\\Create.cshtml",
+              "RelativeDocumentMoniker": "..\\RoyalVillaWeb\\Views\\Villa\\Create.cshtml",
+              "ToolTip": "C:\\Users\\merra\\source\\repos\\RoyalVillaWeb\\Views\\Villa\\Create.cshtml",
+              "RelativeToolTip": "..\\RoyalVillaWeb\\Views\\Villa\\Create.cshtml",
+              "ViewState": "AQIAADsAAAAAAAAAAAAAAE4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-21T18:59:59.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\RoyalVillaWeb\\Views\\Villa\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\RoyalVillaWeb\\Views\\Villa\\Index.cshtml",
+              "ToolTip": "C:\\Users\\merra\\source\\repos\\RoyalVillaWeb\\Views\\Villa\\Index.cshtml",
+              "RelativeToolTip": "..\\RoyalVillaWeb\\Views\\Villa\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAHMAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-21T18:25:37.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VillaController.cs",
+              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\RoyalVillaWeb\\Controllers\\VillaController.cs",
+              "RelativeDocumentMoniker": "..\\RoyalVillaWeb\\Controllers\\VillaController.cs",
+              "ToolTip": "C:\\Users\\merra\\source\\repos\\RoyalVillaWeb\\Controllers\\VillaController.cs",
+              "RelativeToolTip": "..\\RoyalVillaWeb\\Controllers\\VillaController.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAuwHAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T18:13:40.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\RoyalVillaWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "..\\RoyalVillaWeb\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\merra\\source\\repos\\RoyalVillaWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "..\\RoyalVillaWeb\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-21T17:59:20.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VillaService.cs",
+              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\RoyalVillaWeb\\Services\\VillaService.cs",
+              "RelativeDocumentMoniker": "..\\RoyalVillaWeb\\Services\\VillaService.cs",
+              "ToolTip": "C:\\Users\\merra\\source\\repos\\RoyalVillaWeb\\Services\\VillaService.cs",
+              "RelativeToolTip": "..\\RoyalVillaWeb\\Services\\VillaService.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAMwCEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T17:42:14.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\RoyalVillaWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\RoyalVillaWeb\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\merra\\source\\repos\\RoyalVillaWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "..\\RoyalVillaWeb\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwBsAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T17:41:24.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\RoyalVillaWeb\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\RoyalVillaWeb\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\merra\\source\\repos\\RoyalVillaWeb\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "..\\RoyalVillaWeb\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAHUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-21T17:29:16.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "BaseService.cs",
               "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\RoyalVillaWeb\\Services\\BaseService.cs",
               "RelativeDocumentMoniker": "..\\RoyalVillaWeb\\Services\\BaseService.cs",
               "ToolTip": "C:\\Users\\merra\\source\\repos\\RoyalVillaWeb\\Services\\BaseService.cs",
               "RelativeToolTip": "..\\RoyalVillaWeb\\Services\\BaseService.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAAACgAAAA2AAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAewCsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-20T07:11:50.26Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "VillaAmenities.cs",
               "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\VillaAmenities.cs",
               "RelativeDocumentMoniker": "Data\\Models\\VillaAmenities.cs",
@@ -70,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\User.cs",
               "RelativeDocumentMoniker": "Data\\Models\\User.cs",
@@ -82,20 +272,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "Villa.cs",
               "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\Villa.cs",
               "RelativeDocumentMoniker": "Data\\Models\\Villa.cs",
               "ToolTip": "C:\\Users\\merra\\source\\repos\\TestApi2\\Data\\Models\\Villa.cs",
               "RelativeToolTip": "Data\\Models\\Villa.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-18T22:09:08.613Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "VillaController.cs",
               "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Controllers\\VillaController.cs",
               "RelativeDocumentMoniker": "Controllers\\VillaController.cs",
@@ -107,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -119,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -131,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "RoyalVilla_Api.http",
               "DocumentMoniker": "C:\\Users\\merra\\source\\repos\\TestApi2\\RoyalVilla_Api.http",
               "RelativeDocumentMoniker": "RoyalVilla_Api.http",

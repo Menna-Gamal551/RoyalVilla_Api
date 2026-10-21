@@ -21,18 +21,26 @@ namespace RoyalVillaWeb.Services
 
         public async Task<T?> SendAsync<T>(ApiRequest apiRequest)
         {
-            var client = _httpClient.CreateClient("RoyalVillaApi");
-            var message = new HttpRequestMessage
+            try
             {
-                RequestUri=new Uri(apiRequest.Url, UriKind.Relative),
-                Method=GetHttpMethod(apiRequest.ApiType),
-            };
-            if (apiRequest.Data!=null)
-            {
-                message.Content=JsonContent.Create(apiRequest.Data, options: jsonSerializerOptions);
+                var client = _httpClient.CreateClient("RoyalVillaApi");
+                var message = new HttpRequestMessage
+                {
+                    RequestUri=new Uri(apiRequest.Url, UriKind.Relative),
+                    Method=GetHttpMethod(apiRequest.ApiType),
+                };
+                if (apiRequest.Data!=null)
+                {
+                    message.Content=JsonContent.Create(apiRequest.Data, options: jsonSerializerOptions);
+                }
+                var apiResponse = await client.SendAsync(message);
+                return await apiResponse.Content.ReadFromJsonAsync<T>(jsonSerializerOptions);
             }
-            var apiResponse= await client.SendAsync(message);
-            return await apiResponse.Content.ReadFromJsonAsync<T>(jsonSerializerOptions);
+            catch (Exception ex)
+            {
+                Console.WriteLine($"unexpected error : {ex.Message}");
+                return default;
+            }
         }
 
         private static HttpMethod GetHttpMethod(SD.ApiType apiType)

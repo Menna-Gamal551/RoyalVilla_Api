@@ -1,11 +1,6 @@
-﻿using RoyalVillaDTO;
-using RoyalVillaWeb.Models;
-
-namespace RoyalVillaWeb.Services.IServices
+﻿namespace RoyalVillaWeb.Services.IServices
 {
-    public interface IBaseService
+    public class IBaseService
     {
-        ApiResponse<object> ResponseModel { get; set; }
-         Task<T?>SendAsync<T>(ApiRequest apiRequest);
     }
 }

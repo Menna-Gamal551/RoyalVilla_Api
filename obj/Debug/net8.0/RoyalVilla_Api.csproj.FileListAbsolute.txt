@@ -148,3 +148,4 @@ C:\Users\merra\source\repos\TestApi2\obj\Debug\net8.0\ref\RoyalVilla_Api.dll
 C:\Users\merra\source\repos\TestApi2\obj\Debug\net8.0\RoyalVilla_Api.sourcelink.json
 C:\Users\merra\source\repos\TestApi2\bin\Debug\net8.0\RoyalVillaDTO.dll
 C:\Users\merra\source\repos\TestApi2\bin\Debug\net8.0\RoyalVillaDTO.pdb
+C:\Users\merra\source\repos\TestApi2\obj\Debug\net8.0\RoyalVilla_Api.MvcApplicationPartsAssemblyInfo.cs

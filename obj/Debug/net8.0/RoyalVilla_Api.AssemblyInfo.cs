@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoyalVilla_Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e2a9db850b19fb5caf5535a2d15838caa2775c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04d769ef332f6d9980e586a97351ab6d2edb7bc6")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoyalVilla_Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoyalVilla_Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

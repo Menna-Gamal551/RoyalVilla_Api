@@ -34,6 +34,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Um95YWxWaWxsYVdlYlxWaWV3c1xTaGFyZWRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/merra/source/repos/TestApi2/RoyalVillaWeb/Views/Villa/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Um95YWxWaWxsYVdlYlxWaWV3c1xWaWxsYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/merra/source/repos/TestApi2/RoyalVillaWeb/Views/Villa/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Um95YWxWaWxsYVdlYlxWaWV3c1xWaWxsYVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/merra/source/repos/TestApi2/RoyalVillaWeb/Views/Villa/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Um95YWxWaWxsYVdlYlxWaWV3c1xWaWxsYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/merra/source/repos/TestApi2/RoyalVillaWeb/Views/Villa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Um95YWxWaWxsYVdlYlxWaWV3c1xWaWxsYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/merra/source/repos/TestApi2/RoyalVillaWeb/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Um95YWxWaWxsYVdlYlxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
