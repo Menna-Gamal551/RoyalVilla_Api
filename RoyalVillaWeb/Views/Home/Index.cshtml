@@ -91,6 +91,8 @@
     }
     else
     {
+        @if(Model.Count() > 0)
+        {
         <!-- Villa Cards Grid -->
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             @foreach (var item in Model)
@@ -158,7 +160,7 @@
                 </div>
             }
         </div>
-    }
+    
     <!-- Statistics Section -->
         <div class="row mt-5 mb-5">
             <div class="col-12">
@@ -199,6 +201,8 @@
                 </div>
             </div>
         </div>
+        }
+    }
     
 </div>
 

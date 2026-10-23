@@ -1,4 +1,5 @@
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using RoyalVillaDTO;
 using RoyalVillaWeb.Models;
@@ -9,13 +10,12 @@ namespace RoyalVillaWeb.Controllers
 {
     public class VillaController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        
         private readonly IMapper _mapper;
         private readonly IVillaService _villaService;
 
-        public VillaController(ILogger<HomeController> logger,IMapper mapper,IVillaService villaService)
+        public VillaController(IMapper mapper,IVillaService villaService)
         {
-            _logger = logger;
             _mapper = mapper;
             _villaService = villaService;
         }
@@ -25,7 +25,7 @@ namespace RoyalVillaWeb.Controllers
                 List<VillaDTO> VillaList = new();
             try
             {
-                var response = await _villaService.GetAllAsync<ApiResponse<List<VillaDTO>>>("");
+                var response = await _villaService.GetAllAsync<ApiResponse<List<VillaDTO>>>();
                 if (response!=null&&response.Success&&response.Data!=null)
                 {
                     VillaList = response.Data;
@@ -38,6 +38,7 @@ namespace RoyalVillaWeb.Controllers
 
             return View(VillaList);
         }
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             return View();
@@ -52,7 +53,7 @@ namespace RoyalVillaWeb.Controllers
             }
             try
             {
-                var response = await _villaService.CreateVillaAsync<ApiResponse<VillaDTO>>(villaCreateDTO,"");
+                var response = await _villaService.CreateVillaAsync<ApiResponse<VillaDTO>>(villaCreateDTO);
                 if (response!=null&&response.Success&&response.Data!=null)
                 {
                     TempData["Success"]="Villa Created Successfully"; 
@@ -66,6 +67,7 @@ namespace RoyalVillaWeb.Controllers
 
             return View(villaCreateDTO);
         }
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int id)
         {
             if (id<=0)
@@ -75,7 +77,7 @@ namespace RoyalVillaWeb.Controllers
             }
                 try
             {
-                var response = await _villaService.GetAsync<ApiResponse<VillaDTO>>(id, "");
+                var response = await _villaService.GetAsync<ApiResponse<VillaDTO>>(id);
                 if (response!=null&&response.Success&&response.Data!=null)
                 {
                    
@@ -90,13 +92,14 @@ namespace RoyalVillaWeb.Controllers
             return View();
         }
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(VillaDTO villaDTO)
         {
           
             try
             {
-                var response = await _villaService.DeleteAsync<ApiResponse<object>>(villaDTO.Id, "");
+                var response = await _villaService.DeleteAsync<ApiResponse<object>>(villaDTO.Id);
                 if (response!=null&&response.Success)
                 {
                     TempData["Success"]="Villa Deleted Successfully";
@@ -110,6 +113,7 @@ namespace RoyalVillaWeb.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int id)
         {
             if (id<=0)
@@ -119,7 +123,7 @@ namespace RoyalVillaWeb.Controllers
             }
             try
             {
-                var response = await _villaService.GetAsync<ApiResponse<VillaDTO>>(id, "");
+                var response = await _villaService.GetAsync<ApiResponse<VillaDTO>>(id);
                 if (response!=null&&response.Success&&response.Data!=null)
                 {
 
@@ -134,13 +138,14 @@ namespace RoyalVillaWeb.Controllers
             return View();
         }
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(VillaUpdateDTO villaUpdateDTO)
         {
 
             try
             {
-                var response = await _villaService.UpdateVillaAsync<ApiResponse<object>>(villaUpdateDTO, "");
+                var response = await _villaService.UpdateVillaAsync<ApiResponse<object>>(villaUpdateDTO);
                 if (response!=null&&response.Success&&response.Data!=null)
                 {
                     TempData["Success"]="Villa Updated Successfully";

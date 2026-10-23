@@ -42,3 +42,6 @@ C:\Users\merra\source\repos\RoyalVillaWeb\bin\Debug\net8.0\Microsoft.IdentityMod
 C:\Users\merra\source\repos\RoyalVillaWeb\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
 C:\Users\merra\source\repos\RoyalVillaWeb\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\merra\source\repos\RoyalVillaWeb\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\merra\source\repos\RoyalVillaWeb\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\merra\source\repos\RoyalVillaWeb\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\merra\source\repos\RoyalVillaWeb\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

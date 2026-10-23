@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using RoyalVillaDTO;
 using RoyalVillaWeb.Services;
 using RoyalVillaWeb.Services.IServices;
@@ -9,6 +10,15 @@ namespace RoyalVillaWeb
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.Services.AddHttpContextAccessor();
+            builder.Services.AddDistributedMemoryCache();
+            builder.Services.AddSession(op=>
+            {
+                op.IdleTimeout=TimeSpan.FromMinutes(90);
+                op.Cookie.HttpOnly = true;
+                op.Cookie.IsEssential = true;
+            }
+            );
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
@@ -19,6 +29,15 @@ namespace RoyalVillaWeb
                 op.CreateMap<VillaUpdateDTO, VillaDTO>().ReverseMap();
             }               
                 );
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie( op =>
+            {
+                op.Cookie.HttpOnly=true;
+                op.ExpireTimeSpan=TimeSpan.FromMinutes(90);
+                op.SlidingExpiration=true;
+                op.LoginPath="/auth/login";
+                op.AccessDeniedPath="/auth/accessdenied";
+               }
+                );
             builder.Services.AddHttpClient("RoyalVillaApi",op=>
             {
                 var villaUrl = builder.Configuration.GetValue<string>("serviceUrls:VillaUrl");
@@ -27,6 +46,7 @@ namespace RoyalVillaWeb
 
             });
             builder.Services.AddScoped<IVillaService,VillaService>();
+            builder.Services.AddScoped<IAuthService,AuthService>();
 
                 var app = builder.Build();
 
@@ -43,6 +63,8 @@ namespace RoyalVillaWeb
 
             app.UseRouting();
 
+            app.UseSession();
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(
