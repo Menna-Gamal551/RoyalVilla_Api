@@ -8,6 +8,13 @@ using RoyalVilla_Api.Data;
 using RoyalVilla_Api.Data.Models;
 using RoyalVillaDTO;
 using RoyalVilla_Api.Recervice;
+using Asp.Versioning;
+using Asp.Versioning.ApiExplorer;
+using Scalar.AspNetCore;
+using Microsoft.OpenApi.Models;
+using Microsoft.Extensions.Options;
+using Swashbuckle.AspNetCore.SwaggerGen;
+
 
 namespace RoyalVilla_Api
 {
@@ -39,11 +46,26 @@ namespace RoyalVilla_Api
             }
             );
 
+            builder.Services.AddApiVersioning(options =>
+            {
+                options.AssumeDefaultVersionWhenUnspecified = true;
+                options.DefaultApiVersion = new ApiVersion(1, 0);
+                options.ReportApiVersions = true;
+            })
+            .AddMvc()
+            .AddApiExplorer(options =>
+            {
+                options.GroupNameFormat = "'v'VVV";
+                options.SubstituteApiVersionInUrl = true;
+            });
+            
+
             builder.Services.AddCors();
             // Add services to the container.
             builder.Services.AddDbContext<AppDbContext>
                 (option => option.UseSqlServer(builder.Configuration.GetConnectionString("MyCon")));
             builder.Services.AddControllers();
+           
             builder.Services.AddAutoMapper(op =>
             { 
                 op.CreateMap<VillaCreateDTO, Villa>().ReverseMap();
@@ -70,15 +92,45 @@ namespace RoyalVilla_Api
             builder.Services.AddScoped<IAuthService, AuthService>();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddTransient<
+    IConfigureOptions<SwaggerGenOptions>,
+    ConfigureSwaggerOptions>();
+
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
+            var versionProvider = app.Services
+    .GetRequiredService<IApiVersionDescriptionProvider>();
+            foreach (var description in versionProvider.ApiVersionDescriptions)
+            {
+                Console.WriteLine(description.GroupName);
+            }
 
             // Configure the HTTP request pipeline.
+
+
             if (app.Environment.IsDevelopment())
             {
-                app.UseSwagger();
-                app.UseSwaggerUI();
+                app.MapSwagger("/openapi/{documentName}.json");
+
+                app.MapScalarApiReference(options =>
+                {
+                    options.WithTitle("RoyalVilla API");
+
+                    foreach (var description in
+                             versionProvider.ApiVersionDescriptions)
+                    {
+                        var versionName = description.GroupName;
+                        var versionNumber =
+                            description.ApiVersion.ToString();
+
+                        options.AddDocument(
+                            versionName,
+                            $"RoyalVilla API - {versionNumber}",
+                            $"/openapi/{versionName}.json",
+                            isDefault: versionName == "v1");
+                    }
+                });
             }
             app.UseCors(op=>op.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod().WithExposedHeaders("*"));
             app.UseHttpsRedirection();

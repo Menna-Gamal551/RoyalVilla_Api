@@ -109,6 +109,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Asp.Versioning.Mvc": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Asp.Versioning.Mvc.ApiExplorer": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "AutoMapper": {
               "target": "Package",
               "version": "[16.2.0, )"
@@ -116,6 +124,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.29, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.13, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -130,6 +142,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.29, )"
+            },
+            "Scalar.AspNetCore": {
+              "target": "Package",
+              "version": "[2.18.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -46,6 +46,7 @@ namespace RoyalVillaWeb.Controllers
                     await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,principal);
                     HttpContext.Session.SetString(SD.SessionToken, loginResponseDTO.Token);
                     return RedirectToAction("Index","Home");
+                    
                 }
             }
             catch (Exception ex)

@@ -33,6 +33,7 @@ namespace RoyalVillaWeb.Services
                     Method=GetHttpMethod(apiRequest.ApiType),
                 };
                 var token = _HttpContextAccessor.HttpContext?.Session?.GetString(SD.SessionToken);
+              
                 if (!string.IsNullOrEmpty(token)) 
                 {
                     message.Headers.Authorization=new AuthenticationHeaderValue("Bearer",token);

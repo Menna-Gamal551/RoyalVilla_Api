@@ -149,3 +149,9 @@ C:\Users\merra\source\repos\TestApi2\obj\Debug\net8.0\RoyalVilla_Api.sourcelink.
 C:\Users\merra\source\repos\TestApi2\bin\Debug\net8.0\RoyalVillaDTO.dll
 C:\Users\merra\source\repos\TestApi2\bin\Debug\net8.0\RoyalVillaDTO.pdb
 C:\Users\merra\source\repos\TestApi2\obj\Debug\net8.0\RoyalVilla_Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\merra\source\repos\TestApi2\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+C:\Users\merra\source\repos\TestApi2\bin\Debug\net8.0\Asp.Versioning.Http.dll
+C:\Users\merra\source\repos\TestApi2\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+C:\Users\merra\source\repos\TestApi2\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
+C:\Users\merra\source\repos\TestApi2\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\merra\source\repos\TestApi2\bin\Debug\net8.0\Scalar.AspNetCore.dll
