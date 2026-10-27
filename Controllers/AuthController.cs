@@ -5,10 +5,12 @@ using RoyalVillaDTO;
 using RoyalVilla_Api.Data;
 using RoyalVilla_Api.Recervice;
 using Microsoft.IdentityModel.Tokens;
+using Asp.Versioning;
 
 namespace RoyalVilla_Api.Controllers
 {
     [Route("api/auth")]
+    [ApiVersionNeutral]
     [ApiController]
     public class AuthController(IAuthService authService) : ControllerBase
     {
@@ -71,7 +73,7 @@ namespace RoyalVilla_Api.Controllers
                 var loginResponse = await _authService.LoginAsync(loginRequestDTO);
                 if (loginResponse==null)
                 {
-                    return BadRequest(ApiResponse<object>.BadRequest("Login Failed"));
+                    return BadRequest(ApiResponse<object>.BadRequest("Login Failed please check your cardentials"));
                 }
 
 

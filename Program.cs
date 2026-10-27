@@ -14,6 +14,7 @@ using Scalar.AspNetCore;
 using Microsoft.OpenApi.Models;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.SwaggerGen;
+using Microsoft.AspNetCore.Identity;
 
 
 namespace RoyalVilla_Api
@@ -25,6 +26,7 @@ namespace RoyalVilla_Api
             var builder = WebApplication.CreateBuilder(args);
             var key = Encoding.ASCII.GetBytes(builder.Configuration.GetSection("jwtsettings")["secret"]);
 
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
             builder.Services.AddAuthentication(op =>
             {
                 op.DefaultAuthenticateScheme=JwtBearerDefaults.AuthenticationScheme;
@@ -76,7 +78,7 @@ namespace RoyalVilla_Api
            
                 op.CreateMap<VillaDTO, VillaUpdateDTO>().ReverseMap();
     
-                op.CreateMap<User, UserDTO>().ReverseMap();
+                op.CreateMap<ApplicationUser, UserDTO>().ReverseMap();
                 op.CreateMap<VillaAmenities, VillaAmentyCreateDTO>().ReverseMap();
                 op.CreateMap<VillaAmenities, VillaAmentyUpdateDTO>().ReverseMap();
                 op.CreateMap<VillaAmentyDTO, VillaAmenities>();

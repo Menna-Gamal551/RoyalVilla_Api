@@ -6,7 +6,7 @@ namespace RoyalVillaWeb.Services
     public class VillaService :BaseService, IVillaService
     {
    
-        private  const string APIEndPoint="api/villa";
+        private  const string APIEndPoint=$"api/{SD.CurrentAPIVersion}/villa";
 
 
         public VillaService(IHttpClientFactory httpClient, IHttpContextAccessor httpContextAccessor) : base(httpClient, httpContextAccessor)

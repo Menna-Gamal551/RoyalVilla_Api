@@ -43,10 +43,15 @@ namespace RoyalVillaWeb.Controllers
                     identity.AddClaim(new Claim(ClaimTypes.Name, jwt.Claims.FirstOrDefault(u => u.Type=="email").Value));
                     identity.AddClaim(new Claim(ClaimTypes.Role, jwt.Claims.FirstOrDefault(u => u.Type=="role").Value));
                     var principal = new ClaimsPrincipal(identity);
-                    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,principal);
+                    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
                     HttpContext.Session.SetString(SD.SessionToken, loginResponseDTO.Token);
-                    return RedirectToAction("Index","Home");
-                    
+                    return RedirectToAction("Index", "Home");
+
+                }
+                else 
+                {
+                    TempData["error"]=response.Message;
+                    return View(loginRequestDTO);
                 }
             }
             catch (Exception ex)

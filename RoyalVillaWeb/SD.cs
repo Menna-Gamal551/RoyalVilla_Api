@@ -10,5 +10,6 @@
             DELETE,
         }
         public const string SessionToken = "JWToken";
+        public const string CurrentAPIVersion = "V2";
     }
 }

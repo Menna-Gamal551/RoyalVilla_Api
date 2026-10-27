@@ -14,7 +14,7 @@ namespace RoyalVilla_Api.Controllers.V1
 {
     [Route("api/V{version:ApiVersion}/[controller]")]
     [ApiVersion("1.0")]
-    [ApiVersion("2.0")]
+  
     [ApiController]
     public class VillaAmenitiesController : ControllerBase
     {
