@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using RoyalVillaDTO;
 using RoyalVilla_Api.Data;
-using RoyalVilla_Api.Recervice;
 using Microsoft.IdentityModel.Tokens;
 using Asp.Versioning;
+using RoyalVilla_Api.Services.IServices;
 
 namespace RoyalVilla_Api.Controllers
 {

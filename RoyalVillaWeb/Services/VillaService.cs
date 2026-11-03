@@ -1,4 +1,5 @@
 ﻿using RoyalVillaDTO;
+using RoyalVillaWeb.Extentions;
 using RoyalVillaWeb.Services.IServices;
 
 namespace RoyalVillaWeb.Services
@@ -16,7 +17,8 @@ namespace RoyalVillaWeb.Services
 
         public Task<T?> CreateVillaAsync<T>(VillaCreateDTO villaCreateDTO)
         {
-            return SendAsync<T>(new() { Url=$"{APIEndPoint}", Data=villaCreateDTO, ApiType=SD.ApiType.POST});
+            var formData = villaCreateDTO.ToMultipartFormData();
+            return SendAsync<T>(new() { Url=$"{APIEndPoint}", Data=formData, ApiType=SD.ApiType.POST});
         }
 
         public Task<T?> DeleteAsync<T>(int id)
@@ -36,7 +38,8 @@ namespace RoyalVillaWeb.Services
 
         public Task<T?> UpdateVillaAsync<T>(VillaUpdateDTO villaUpdateDTO)
         {
-            return SendAsync<T>(new() { Url=$"{APIEndPoint}/{villaUpdateDTO.Id}", Data=villaUpdateDTO, ApiType=SD.ApiType.PUT });
+            var formData = villaUpdateDTO.ToMultipartFormData();
+            return SendAsync<T>(new() { Url=$"{APIEndPoint}/{villaUpdateDTO.Id}", Data=formData, ApiType=SD.ApiType.PUT });
         }
     }
 }

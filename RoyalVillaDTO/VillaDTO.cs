@@ -1,10 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Http;
+using System.ComponentModel.DataAnnotations;
 
 namespace RoyalVillaDTO
 {
     public class VillaDTO
     {
-
 
         public int Id { get; set; }
 
@@ -14,6 +14,7 @@ namespace RoyalVillaDTO
         public double Rate { get; set; }
         public int Occupancy { get; set; }
         public string? ImageUrl { get; set; }
+       
 
     }
 }

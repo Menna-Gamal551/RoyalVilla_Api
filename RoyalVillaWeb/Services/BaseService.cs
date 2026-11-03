@@ -10,6 +10,7 @@ namespace RoyalVillaWeb.Services
     {
         private IHttpClientFactory _httpClient;
         private IHttpContextAccessor _HttpContextAccessor;
+        
         public ApiResponse<object> ResponseModel { get; set; }
         private readonly static JsonSerializerOptions jsonSerializerOptions = new()
         {
@@ -27,11 +28,13 @@ namespace RoyalVillaWeb.Services
             try
             {
                 var client = _httpClient.CreateClient("RoyalVillaApi");
+               
                 var message = new HttpRequestMessage
                 {
                     RequestUri=new Uri(apiRequest.Url, UriKind.Relative),
                     Method=GetHttpMethod(apiRequest.ApiType),
                 };
+
                 var token = _HttpContextAccessor.HttpContext?.Session?.GetString(SD.SessionToken);
               
                 if (!string.IsNullOrEmpty(token)) 
@@ -41,7 +44,15 @@ namespace RoyalVillaWeb.Services
 
                 if (apiRequest.Data!=null)
                 {
-                    message.Content=JsonContent.Create(apiRequest.Data, options: jsonSerializerOptions);
+                    if (apiRequest.Data is MultipartFormDataContent multipart)
+                    {
+                        message.Content=multipart;
+                    }
+                    else
+                    {
+                        message.Content=JsonContent.Create(apiRequest.Data, options: jsonSerializerOptions);
+                    }
+                   
                 }
                 var apiResponse = await client.SendAsync(message);
                 return await apiResponse.Content.ReadFromJsonAsync<T>(jsonSerializerOptions);

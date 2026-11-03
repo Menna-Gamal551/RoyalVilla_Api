@@ -23,6 +23,7 @@ namespace RoyalVillaWeb.Controllers
         
         public async Task<IActionResult> Index()
         {
+            
                 List<VillaDTO> VillaList = new();
             try
             {

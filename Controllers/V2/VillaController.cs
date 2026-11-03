@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using RoyalVilla_Api.Data;
 using RoyalVilla_Api.Data.Models;
+using RoyalVilla_Api.Services.IServices;
 using RoyalVillaDTO;
 using System.Text;
 
@@ -22,12 +23,14 @@ namespace RoyalVilla_Api.Controllers.V2
     // [Authorize(Roles ="Admin,Customer")]
     public class VillaController : ControllerBase
     {
-        private AppDbContext _db;
-        private IMapper _mapper;
-        public VillaController(AppDbContext db, IMapper mapper)
+        private readonly AppDbContext _db;
+        private readonly IMapper _mapper;
+        private readonly IImageService _imageService;
+        public VillaController(AppDbContext db, IMapper mapper, IImageService imageService)
         {
             _db = db;
             _mapper = mapper;
+            _imageService=imageService;
         }
         [HttpGet]
         // [Authorize(Roles ="Admin")]
@@ -153,13 +156,15 @@ namespace RoyalVilla_Api.Controllers.V2
 
         }
         [HttpPost]
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
+        [AllowAnonymous]
+        [Consumes("multipart/form-data")]
         [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status400BadRequest)]
         [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status409Conflict)]
         [ProducesResponseType(typeof(ApiResponse<VillaDTO>), StatusCodes.Status201Created)]
 
         [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status500InternalServerError)]
-        public async Task<IActionResult> CreateVilla(VillaCreateDTO villaDTO)
+        public async Task<IActionResult> CreateVilla([FromForm]VillaCreateDTO villaDTO)
         {
             try
             {
@@ -173,6 +178,16 @@ namespace RoyalVilla_Api.Controllers.V2
                     return Conflict(ApiResponse<object>.Conflict($"a villa with Name{villaDTO.Name} is already exsit"));
                 }
                 Villa villa = _mapper.Map<Villa>(villaDTO);
+                if (villaDTO.Image!=null)
+                {
+                    if (!_imageService.ValidateImage(villaDTO.Image))
+                    {
+                        return BadRequest(
+                         "Image file invalid. Allowed formats {jpg,png,jpeg} Maximum size is 5 MB.");
+                    }
+                    villa.ImageUrl= await _imageService.UploadImageAsync(villaDTO.Image);
+                }
+                
 
                 _db.Villas.Add(villa);
                 await _db.SaveChangesAsync();
@@ -190,13 +205,15 @@ namespace RoyalVilla_Api.Controllers.V2
 
         }
         [HttpPut("{id:int}")]
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
+        [AllowAnonymous]
+        [Consumes("multipart/form-data")]
         [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status400BadRequest)]
         [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status409Conflict)]
         [ProducesResponseType(typeof(ApiResponse<VillaDTO>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status500InternalServerError)]
-        public async Task<IActionResult> UpdateVilla(VillaUpdateDTO villaDTO, int id)
+        public async Task<IActionResult> UpdateVilla([FromForm]VillaUpdateDTO villaDTO, int id)
         {
             try
             {
@@ -209,6 +226,13 @@ namespace RoyalVilla_Api.Controllers.V2
                 {
                     return NotFound(ApiResponse<object>.NotFound($"villa with id : {id} in url not Matches Villa id in  response body  "));
                 }
+                if (villaDTO.Image!=null&&!_imageService.ValidateImage(villaDTO.Image))
+                {
+                   
+                        return BadRequest(
+                         "Image file invalid. Allowed formats {jpg,png,jpeg} Maximum size is 5 MB.");
+                   
+                }
                 var duplicateVilla = await _db.Villas.FirstOrDefaultAsync(e => e.Name.ToLower() == villaDTO.Name.ToLower() && e.Id != id);
                 if (duplicateVilla != null)
                 {
@@ -219,8 +243,20 @@ namespace RoyalVilla_Api.Controllers.V2
                 {
                     return NotFound(ApiResponse<object>.NotFound($"villa with id : {id} not found "));
                 }
+
+                var oldImageUrl=exitingvilla.ImageUrl;
                 _mapper.Map(villaDTO, exitingvilla);
                 exitingvilla.UpdateDate = DateTime.Now;
+                if (villaDTO.Image!=null)
+                { 
+                exitingvilla.ImageUrl=await _imageService.UploadImageAsync(villaDTO.Image);
+                    villaDTO.ImageUrl=exitingvilla.ImageUrl;
+                    if (!string.IsNullOrEmpty(oldImageUrl)&&oldImageUrl!=exitingvilla.ImageUrl)
+                    {
+                        await _imageService.DeleteImageAsync(oldImageUrl);
+                    }
+                }
+
                 await _db.SaveChangesAsync();
                 return Ok(ApiResponse<VillaDTO>.Ok("", _mapper.Map<VillaDTO>(villaDTO)));
 
@@ -229,7 +265,7 @@ namespace RoyalVilla_Api.Controllers.V2
             catch (Exception ex)
             {
 
-                var errorresponse = ApiResponse<object>.Error(500, "An error occured while Creating villa ", ex.Message);
+                var errorresponse = ApiResponse<object>.Error(500, "An error occured while updating villa ", ex.Message);
 
                 return StatusCode(500, errorresponse);
             }
@@ -238,11 +274,11 @@ namespace RoyalVilla_Api.Controllers.V2
 
 
         [HttpDelete("{id}")]
-        [Authorize(Roles = "Admin")]
+        [AllowAnonymous]
         [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status204NoContent)]
         [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status500InternalServerError)]
-        public async Task<IActionResult> DeleteVilla(int id)
+        public async Task<ActionResult<ApiResponse<object>>> DeleteVilla(int id)
         {
             try
             {

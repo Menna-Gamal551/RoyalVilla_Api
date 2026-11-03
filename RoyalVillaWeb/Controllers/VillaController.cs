@@ -101,7 +101,7 @@ namespace RoyalVillaWeb.Controllers
             try
             {
                 var response = await _villaService.DeleteAsync<ApiResponse<object>>(villaDTO.Id);
-                if (response!=null&&response.Success)
+                if (response!=null&& response.Success)
                 {
                     TempData["Success"]="Villa Deleted Successfully";
                   

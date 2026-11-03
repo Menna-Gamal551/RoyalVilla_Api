@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "y3zlKTQvZU5ecMLpSEaZ3FTK4eaFbc5ZHmDO41MknogD4VMFzd3sI9DGemnocQ61yUnutS4zQ6RxHqpWFlrMvg==",
+  "dgSpecHash": "BTY2dhn+nskyiCFB9PEvw/6uXWYkPkpXCoq0vwCL045t5TslW9HHYvZh0ggao6Z9peBX7O8ToGeVCq+Fg46IrQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\merra\\source\\repos\\RoyalVillaWeb\\RoyalVillaWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\merra\\.nuget\\packages\\automapper\\16.2.0\\automapper.16.2.0.nupkg.sha512",
+    "C:\\Users\\merra\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\merra\\.nuget\\packages\\microsoft.bcl.cryptography\\10.0.2\\microsoft.bcl.cryptography.10.0.2.nupkg.sha512",
     "C:\\Users\\merra\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
     "C:\\Users\\merra\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0\\microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
@@ -16,7 +17,8 @@
     "C:\\Users\\merra\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.23.0\\microsoft.identitymodel.tokens.8.23.0.nupkg.sha512",
     "C:\\Users\\merra\\.nuget\\packages\\system.diagnostics.diagnosticsource\\10.0.0\\system.diagnostics.diagnosticsource.10.0.0.nupkg.sha512",
     "C:\\Users\\merra\\.nuget\\packages\\system.formats.asn1\\10.0.2\\system.formats.asn1.10.0.2.nupkg.sha512",
-    "C:\\Users\\merra\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.23.0\\system.identitymodel.tokens.jwt.8.23.0.nupkg.sha512"
+    "C:\\Users\\merra\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.23.0\\system.identitymodel.tokens.jwt.8.23.0.nupkg.sha512",
+    "C:\\Users\\merra\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
   ],
   "logs": []
 }

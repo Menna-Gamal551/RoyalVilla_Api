@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\merra\\source\\repos\\TestApi2\\wwwroot\\Images\\Villas\\4c1589b2-b65f-400c-8a80-d4f4b7fa0580.jpg",
+      "PackagePath": "staticwebassets\\Images\\Villas\\4c1589b2-b65f-400c-8a80-d4f4b7fa0580.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merra\\source\\repos\\TestApi2\\wwwroot\\Images\\Villas\\575a4983-809f-45fa-b7be-c5b7c5d48217.jpg",
+      "PackagePath": "staticwebassets\\Images\\Villas\\575a4983-809f-45fa-b7be-c5b7c5d48217.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merra\\source\\repos\\TestApi2\\wwwroot\\Images\\Villas\\e1fed90c-d1ce-4097-8f53-fb49c153a144.jpg",
+      "PackagePath": "staticwebassets\\Images\\Villas\\e1fed90c-d1ce-4097-8f53-fb49c153a144.jpg"
+    },
+    {
+      "Id": "C:\\Users\\merra\\source\\repos\\TestApi2\\wwwroot\\Images\\placeholder-villa.jpg",
+      "PackagePath": "staticwebassets\\Images\\placeholder-villa.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RoyalVilla_Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.RoyalVilla_Api.props",
+      "PackagePath": "build\\RoyalVilla_Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RoyalVilla_Api.props",
+      "PackagePath": "buildMultiTargeting\\RoyalVilla_Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.RoyalVilla_Api.props",
+      "PackagePath": "buildTransitive\\RoyalVilla_Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

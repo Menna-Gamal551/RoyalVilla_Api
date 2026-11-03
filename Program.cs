@@ -15,6 +15,8 @@ using Microsoft.OpenApi.Models;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using Microsoft.AspNetCore.Identity;
+using RoyalVilla_Api.Services.IServices;
+using RoyalVilla_Api.Services;
 
 
 namespace RoyalVilla_Api
@@ -91,6 +93,7 @@ namespace RoyalVilla_Api
             });
            
 
+            builder.Services.AddScoped<IImageService, ImageService>();
             builder.Services.AddScoped<IAuthService, AuthService>();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
@@ -134,6 +137,7 @@ namespace RoyalVilla_Api
                     }
                 });
             }
+            app.UseStaticFiles();
             app.UseCors(op=>op.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod().WithExposedHeaders("*"));
             app.UseHttpsRedirection();
             app.UseAuthentication();

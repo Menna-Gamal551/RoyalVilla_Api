@@ -38,9 +38,10 @@ namespace RoyalVillaWeb
                 op.AccessDeniedPath="/auth/accessdenied";
                }
                 );
+            SD.APIBaseUrl= builder.Configuration.GetValue<string>("serviceUrls:VillaUrl");
             builder.Services.AddHttpClient("RoyalVillaApi",op=>
             {
-                var villaUrl = builder.Configuration.GetValue<string>("serviceUrls:VillaUrl");
+                var villaUrl = SD.APIBaseUrl;
                 op.BaseAddress=new Uri(villaUrl);
                 op.DefaultRequestHeaders.Add("Accept", "application/json");
 
